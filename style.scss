@@ -1,0 +1,24 @@
+.currency-table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-size: 1.2rem;
+
+	tr {
+		border: 1px solid black;
+	}
+
+	td {
+		min-width: 100px;
+		border: 1px solid black;
+		text-align: center;
+		padding: 5px;
+	}
+}
+
+.min-value {
+	color: green;
+}
+
+.max-value {
+	color: orange;
+}
